@@ -1,0 +1,6 @@
+vim.keymap.set("n", "<leader>ex", vim.cmd.Ex)
+vim.keymap.set("n", "<M-h>", function() vim.cmd.wincmd('h') end)
+vim.keymap.set("n", "<M-j>", function() vim.cmd.wincmd('j') end)
+vim.keymap.set("n", "<M-k>", function() vim.cmd.wincmd('k') end)
+vim.keymap.set("n", "<M-l>", function() vim.cmd.wincmd('l') end)
+vim.keymap.set("n", "<leader>bwi", vim.cmd.bwipeout)
